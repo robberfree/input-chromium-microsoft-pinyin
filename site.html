@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>a normal site</title>
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
+</head>
+
+<body>
+    <input />
+
+    <script>
+        var input = document.querySelector('input');
+        input.addEventListener('input', handleInput);
+
+        function handleInput(e) {
+            console.log('the input event will fire two times', input.value);
+        }
+
+    </script>
+</body>
+
+</html>
